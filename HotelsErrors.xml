@@ -3,7 +3,7 @@
   <Hotel>
     <Name>Broken Hotel</Name>
     <City>Los Angeles</City>
-    <RoomCount>120</RoomCount> <!-- Wrong tag name -->
-    <!-- Missing Rating -->
+    <RoomCount>120</RoomCount>
   </Hotel>
 </Hotels>
+
