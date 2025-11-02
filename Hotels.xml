@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Hotels>
   <Hotel>
-    <Name>Grand Palace</Name>
-    <City>New York</City>
+    <Name>GrandPalace</Name>
+    <City>NewYork</City>
     <Rooms>200</Rooms>
     <Rating>5</Rating>
   </Hotel>
   <Hotel>
-    <Name>Sunset Resort</Name>
+    <Name>SunsetResort</Name>
     <City>Miami</City>
     <Rooms>150</Rooms>
     <Rating>4</Rating>
