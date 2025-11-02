@@ -1,15 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
   <Hotel>
-    <Name>GrandPalace</Name>
-    <City>NewYork</City>
-    <Rooms>200</Rooms>
-    <Rating>5</Rating>
+    <Name>Westin</Name>
+    <Phone>480-963-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.2</Rating>
   </Hotel>
+
   <Hotel>
-    <Name>SunsetResort</Name>
-    <City>Miami</City>
-    <Rooms>150</Rooms>
-    <Rating>4</Rating>
+    <Name>Hyatt Regency</Name>
+    <Phone>602-252-1234</Phone>
+    <Address>
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Arizona Grand Resort</Name>
+    <Phone>602-438-9000</Phone>
+    <Address>
+      <Number>8000</Number>
+      <Street>S Arizona Grand Pkwy</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85044</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Talking Stick Resort</Name>
+    <Phone>480-850-7777</Phone>
+    <Address>
+      <Number>9800</Number>
+      <Street>E Talking Stick Way</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85256</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.4</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Fairmont Scottsdale Princess</Name>
+    <Phone>480-585-4848</Phone>
+    <Address>
+      <Number>7575</Number>
+      <Street>E Princess Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.7</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Omni Scottsdale</Name>
+    <Phone>480-627-3200</Phone>
+    <Address>
+      <Number>4949</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.6</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>JW Marriott Desert Ridge</Name>
+    <Phone>480-293-5000</Phone>
+    <Address>
+      <Number>5350</Number>
+      <Street>E Marriott Dr</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85054</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.8</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hotel Valley Ho</Name>
+    <Phone>480-376-2600</Phone>
+    <Address>
+      <Number>6850</Number>
+      <Street>E Main St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.4</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Tempe Mission Palms</Name>
+    <Phone>480-894-1400</Phone>
+    <Address>
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Graduate Tempe</Name>
+    <Phone>480-967-9431</Phone>
+    <Address>
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.0</Rating>
   </Hotel>
 </Hotels>
