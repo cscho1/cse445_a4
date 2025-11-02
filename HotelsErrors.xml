@@ -1,8 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
+  <!-- 1. Missing a Phone element -->
   <Hotel>
-    <Name>BrokenHotel</Name>
-    <City>LosAngeles</City>
-    <RoomCount>120</RoomCount>
+    <Name>Westin</Name>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <!-- 2. Wrong child tag: CityName instead of City -->
+  <Hotel>
+    <Name>Hyatt Regency</Name>
+    <Phone>602-252-1234</Phone>
+    <Address>
+      <Number>122</Number>
+      <Street>N 2nd St</Street>
+      <CityName>Phoenix</CityName>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+  <!-- 3. Missing Address block entirely -->
+  <Hotel>
+    <Name>Arizona Grand Resort</Name>
+    <Phone>602-438-9000</Phone>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>4.3</Rating>
+  </Hotel>
+
+  <!-- 4. Rating type wrong (string instead of decimal) -->
+  <Hotel>
+    <Name>Talking Stick Resort</Name>
+    <Phone>480-850-7777</Phone>
+    <Address>
+      <Number>9800</Number>
+      <Street>E Talking Stick Way</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85256</Zip>
+    </Address>
+    <NearestAirport>Sky Harbor</NearestAirport>
+    <Rating>Four</Rating>
+  </Hotel>
+
+  <!-- 5. Missing NearestAirport -->
+  <Hotel>
+    <Name>Fairmont Scottsdale Princess</Name>
+    <Phone>480-585-4848</Phone>
+    <Address>
+      <Number>7575</Number>
+      <Street>E Princess Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+    <Rating>4.7</Rating>
   </Hotel>
 </Hotels>
