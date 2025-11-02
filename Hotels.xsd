@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
@@ -19,12 +20,13 @@
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
-              <xs:element name="NearestAirport" type="xs:string"/>
-              <xs:element name="Rating" type="xs:decimal"/>
             </xs:sequence>
+            <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+            <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
 </xs:schema>
