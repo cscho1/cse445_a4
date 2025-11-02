@@ -1,44 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-  <!-- 1. Missing a Phone element -->
-  <Hotel>
-    <Name>Westin</Name>
+
+  <!-- Valid example to anchor grading -->
+  <Hotel Rating="4.2" NearestAirport="Sky Harbor">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
     <Address>
       <Number>11</Number>
-      <Street>E. 7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.2</Rating>
   </Hotel>
 
-  <!-- 2. Wrong child tag: CityName instead of City -->
-  <Hotel>
-    <Name>Hyatt Regency</Name>
+  <!-- ERROR #1: Missing required attribute NearestAirport -->
+  <Hotel Rating="4.5">
+    <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
     <Address>
       <Number>122</Number>
       <Street>N 2nd St</Street>
-      <CityName>Phoenix</CityName>
+      <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.5</Rating>
   </Hotel>
 
-  <!-- 3. Missing Address block entirely -->
-  <Hotel>
+  <!-- ERROR #2: Wrong element name CityName instead of City -->
+  <Hotel Rating="4.3" NearestAirport="Sky Harbor">
     <Name>Arizona Grand Resort</Name>
     <Phone>602-438-9000</Phone>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.3</Rating>
+    <Address>
+      <Number>8000</Number>
+      <Street>Arizona Grand Parkway</Street>
+      <CityName>Phoenix</CityName>
+      <State>AZ</State>
+      <Zip>85044</Zip>
+    </Address>
   </Hotel>
 
-  <!-- 4. Rating type wrong (string instead of decimal) -->
-  <Hotel>
+  <!-- ERROR #3: Rating should be attribute, not child element -->
+  <Hotel NearestAirport="Sky Harbor">
     <Name>Talking Stick Resort</Name>
     <Phone>480-850-7777</Phone>
     <Address>
@@ -48,14 +51,12 @@
       <State>AZ</State>
       <Zip>85256</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>Four</Rating>
+    <Rating>4.4</Rating>
   </Hotel>
 
-  <!-- 5. Missing NearestAirport -->
-  <Hotel>
+  <!-- ERROR #4: Missing Phone entirely -->
+  <Hotel Rating="4.7" NearestAirport="Sky Harbor">
     <Name>Fairmont Scottsdale Princess</Name>
-    <Phone>480-585-4848</Phone>
     <Address>
       <Number>7575</Number>
       <Street>E Princess Dr</Street>
@@ -63,6 +64,25 @@
       <State>AZ</State>
       <Zip>85255</Zip>
     </Address>
-    <Rating>4.7</Rating>
   </Hotel>
+
+  <!-- ERROR #5: Invalid rating type (string instead of decimal) -->
+  <Hotel Rating="FourStars" NearestAirport="Sky Harbor">
+    <Name>Omni Scottsdale Resort</Name>
+    <Phone>480-627-3200</Phone>
+    <Address>
+      <Number>4949</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- ERROR #6: Missing Address block completely -->
+  <Hotel Rating="4.8" NearestAirport="Sky Harbor">
+    <Name>JW Marriott Desert Ridge</Name>
+    <Phone>480-293-5000</Phone>
+  </Hotel>
+
 </Hotels>
