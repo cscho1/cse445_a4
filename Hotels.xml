@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-  <Hotel>
-    <Name>Westin</Name>
-    <Phone>480-963-8885</Phone>
+  <Hotel Rating="4.2" NearestAirport="Sky Harbor">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Address>
       <Number>11</Number>
-      <Street>E. 7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.2</Rating>
   </Hotel>
 
-  <Hotel>
-    <Name>Hyatt Regency</Name>
+  <Hotel Rating="4.5" NearestAirport="Sky Harbor">
+    <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
     <Address>
       <Number>122</Number>
@@ -25,25 +23,21 @@
       <State>AZ</State>
       <Zip>85004</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.5</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.3" NearestAirport="Sky Harbor">
     <Name>Arizona Grand Resort</Name>
     <Phone>602-438-9000</Phone>
     <Address>
       <Number>8000</Number>
-      <Street>S Arizona Grand Pkwy</Street>
+      <Street>Arizona Grand Parkway</Street>
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>85044</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.3</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.4" NearestAirport="Sky Harbor">
     <Name>Talking Stick Resort</Name>
     <Phone>480-850-7777</Phone>
     <Address>
@@ -53,11 +47,9 @@
       <State>AZ</State>
       <Zip>85256</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.4</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.7" NearestAirport="Sky Harbor">
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
     <Address>
@@ -67,12 +59,10 @@
       <State>AZ</State>
       <Zip>85255</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.7</Rating>
   </Hotel>
 
-  <Hotel>
-    <Name>Omni Scottsdale</Name>
+  <Hotel Rating="4.6" NearestAirport="Sky Harbor">
+    <Name>Omni Scottsdale Resort</Name>
     <Phone>480-627-3200</Phone>
     <Address>
       <Number>4949</Number>
@@ -81,11 +71,9 @@
       <State>AZ</State>
       <Zip>85253</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.6</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.8" NearestAirport="Sky Harbor">
     <Name>JW Marriott Desert Ridge</Name>
     <Phone>480-293-5000</Phone>
     <Address>
@@ -95,11 +83,9 @@
       <State>AZ</State>
       <Zip>85054</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.8</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.4" NearestAirport="Sky Harbor">
     <Name>Hotel Valley Ho</Name>
     <Phone>480-376-2600</Phone>
     <Address>
@@ -109,11 +95,9 @@
       <State>AZ</State>
       <Zip>85251</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.4</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.3" NearestAirport="Sky Harbor">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
     <Address>
@@ -123,11 +107,9 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.3</Rating>
   </Hotel>
 
-  <Hotel>
+  <Hotel Rating="4.0" NearestAirport="Sky Harbor">
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
     <Address>
@@ -137,7 +119,5 @@
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
-    <NearestAirport>Sky Harbor</NearestAirport>
-    <Rating>4.0</Rating>
   </Hotel>
 </Hotels>
