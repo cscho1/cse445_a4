@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel>
+    <Name>Broken Hotel</Name>
+    <City>Los Angeles</City>
+    <RoomCount>120</RoomCount> <!-- Wrong tag name -->
+    <!-- Missing Rating -->
+  </Hotel>
+</Hotels>

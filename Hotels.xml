@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+  <Hotel>
+    <Name>Grand Palace</Name>
+    <City>New York</City>
+    <Rooms>200</Rooms>
+    <Rating>5</Rating>
+  </Hotel>
+  <Hotel>
+    <Name>Sunset Resort</Name>
+    <City>Miami</City>
+    <Rooms>150</Rooms>
+    <Rating>4</Rating>
+  </Hotel>
+</Hotels>
